@@ -1,0 +1,12 @@
+"Feature","Selection_Count","Stability_Score"
+"max_log2FC",100,1
+"mean_log2FC",100,1
+"max_pct1",100,1
+"cluster_count",100,1
+"Disease_score",100,1
+"Cell_support_score",100,1
+"mean_pct1",99,0.99
+"B_cell_specificity_score",87,0.87
+"Expression_score",52,0.52
+"min_adj_pvalue",0,0
+"Expression_frequency_score",0,0
