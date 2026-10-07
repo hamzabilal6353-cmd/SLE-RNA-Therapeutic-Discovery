@@ -3,16 +3,21 @@
 # ML Visualization
 # ============================================================
 
-
 library(ggplot2)
 library(dplyr)
 
 
+# Create figure folder if missing
+
+dir.create(
+  "results/figures",
+  showWarnings = FALSE
+)
+
 
 # ------------------------------------------------------------
-# 1. Feature Importance Plot
+# Feature Importance Plot
 # ------------------------------------------------------------
-
 
 importance <- read.csv(
   "results/feature_importance.csv"
@@ -40,12 +45,6 @@ feature_plot <- ggplot(
   )
 
 
-dir.create(
-  "results/figures",
-  showWarnings = FALSE
-)
-
-
 ggsave(
   filename = "results/figures/feature_importance_plot.png",
   plot = feature_plot,
@@ -53,7 +52,6 @@ ggsave(
   height = 5,
   dpi = 300
 )
-
 
 
 print("Feature importance plot created")
