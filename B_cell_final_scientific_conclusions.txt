@@ -1,0 +1,24 @@
+SLE B-CELL THERAPEUTIC TARGET DISCOVERY
+
+MAIN FINDINGS
+1. Original analysis identified 1586 significant genes.
+2. Interferon-related biological processes were enriched.
+3. Six candidate genes were investigated:
+   TLR7, USP18, JAK1, JAK2, IFIH1, STAT1.
+4. Filtering samples with fewer than 100 B cells
+   retained 259 samples.
+5. All six candidates remained significant (FDR < 0.05).
+6. All six retained their expression directions.
+7. Maximum absolute logFC change was 0.0446.
+
+LIMITATIONS
+- Sensitivity analysis used the same dataset.
+- Independent-cohort validation has not been performed.
+- Protein activity and therapeutic efficacy are unverified.
+- RNA expression does not establish intervention direction.
+- Flare versus Managed comparisons are batch-confounded.
+
+CONCLUSION
+Interferon-associated B-cell expression changes in SLE
+support further investigation of the six candidates.
+Functional and independent validation are required.
