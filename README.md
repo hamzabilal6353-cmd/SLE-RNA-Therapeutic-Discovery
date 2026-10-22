@@ -104,6 +104,24 @@ To test the robustness of the six candidate genes, pseudobulk samples with fewer
 
 These findings demonstrate robustness to this particular low-cell-count filtering decision. They do not constitute independent-cohort validation.
 
+### Six-Gene Sensitivity Analysis Figure
+
+The following figure compares the original and filtered
+log2 fold changes for six candidate genes.
+
+![Six-gene B-cell sensitivity analysis](results/figures/B_cell_six_target_sensitivity_comparison.png)
+
+All six genes retained their expression directions
+and remained significant (FDR < 0.05) after filtering.
+
+**Supporting files:**
+
+- [Sensitivity analysis results (CSV)](results/B_cell_six_target_filtering_sensitivity.csv)
+- [Reproducible R analysis script](single_cell/12_B_cell_filtering_sensitivity.R)
+- [Scientific conclusions](results/B_cell_final_scientific_conclusions.txt)
+- [R package requirements](R_PACKAGES.md)
+
+
 ## Machine Learning and Feature Engineering
 
 The machine-learning component explores computational target prioritization using engineered features derived from transcriptomic analyses.
