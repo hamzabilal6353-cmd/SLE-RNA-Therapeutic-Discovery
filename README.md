@@ -159,6 +159,28 @@ Previously recorded ROC-AUC results were:
 
 ## Repository Structure
 
+## Reproducibility and Research Documentation
+
+The repository includes documentation explaining
+the computational methodology and research findings.
+
+- [Complete Analysis Workflow](docs/ANALYSIS_WORKFLOW.md)
+- [R Software Environment](docs/R_session_info.txt)
+- [Donor-Aware Differential Expression Script](single_cell/09_B_cell_donor_aware_reconstructed.R)
+- [B-Cell Sensitivity Analysis Script](single_cell/12_B_cell_filtering_sensitivity.R)
+- [Differential Expression Results](results/B_cell_SLE_vs_Healthy_DE_results.csv)
+- [Gene Ontology Enrichment Results](results/B_cell_GO_BP_enrichment.csv)
+- [Six-Gene Sensitivity Results](results/B_cell_six_target_filtering_sensitivity.csv)
+
+The analysis uses the public dataset GSE174188.
+Some upstream inputs are stored locally and are
+not included in this repository.
+
+The current repository documents an exploratory
+computational study, not independently validated
+therapeutic targets.
+
+
 The repository includes the following main directories:
 
 | Directory | Purpose |
