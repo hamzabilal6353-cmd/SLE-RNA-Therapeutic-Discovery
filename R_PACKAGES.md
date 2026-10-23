@@ -1,1 +1,34 @@
+R Package Requirements
 
+This project uses R for single-cell RNA-seq analysis, pseudobulk differential expression, pathway enrichment, and exploratory machine learning.
+
+## Main Packages
+
+| Package | Purpose |
+|---|---|
+| Seurat | Single-cell RNA-seq analysis |
+| edgeR | Pseudobulk count normalization and expression filtering |
+| limma | Donor-aware differential-expression analysis using voom |
+| statmod | Statistical support for donor correlation estimation |
+| clusterProfiler | Gene Ontology enrichment analysis |
+| org.Hs.eg.db | Human gene annotation |
+| ggplot2 | Scientific visualization |
+| dplyr | Data manipulation |
+| caret | Machine-learning workflows |
+| glmnet | LASSO-based feature selection |
+| randomForest | Random forest modeling |
+| pROC | ROC-AUC evaluation |
+
+## Software Environment
+
+The analysis was performed in RStudio on Windows using R 4.6.1.
+
+Package versions should be recorded from the original computational environment before exact environment reproduction is claimed.
+
+## Reproducibility Notes
+
+The file `single_cell/12_B_cell_filtering_sensitivity.R` reproduces the filtered B-cell differential-expression analysis and six-gene comparison when its required pseudobulk inputs and original results are available.
+
+Raw sequencing data and large intermediate analysis objects are not included in this repository. The source dataset is available through GEO accession GSE174188.
+
+The workflow is intended for exploratory computational research, not clinical therapeutic decision-making.
