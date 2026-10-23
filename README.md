@@ -165,6 +165,7 @@ The repository includes documentation explaining
 the computational methodology and research findings.
 
 - [Complete Analysis Workflow](docs/ANALYSIS_WORKFLOW.md)
+- [Verified B-cell DE Input Reconstruction](single_cell/05_B_cell_DE_input_reconstructed.R)
 - [R Software Environment](docs/R_session_info.txt)
 - [Donor-Aware Differential Expression Script](single_cell/09_B_cell_donor_aware_reconstructed.R)
 - [B-Cell Sensitivity Analysis Script](single_cell/12_B_cell_filtering_sensitivity.R)
