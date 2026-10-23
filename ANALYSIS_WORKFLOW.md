@@ -10,12 +10,15 @@ The project investigates transcriptomic differences between B cells from patient
 
 ### 1. B-Cell Pseudobulk Preparation
 
-Relevant scripts:
+**Available reconstruction script:**
 
-- `single_cell/05_B_cell_pseudobulk_checkpoints.R`
-- `single_cell/06_combine_B_cell_checkpoints.R`
+- `single_cell/05_B_cell_DE_input_reconstructed.R`
 
 The downstream differential-expression analysis uses pseudobulk counts and corresponding sample metadata.
+
+The original upstream pseudobulk preparation scripts were not preserved as executable code. The available reconstruction script reproduces the saved 284-sample differential-expression input matrix from existing sample-level pseudobulk counts.
+
+It does not reconstruct pseudobulk counts directly from raw single-cell sequencing data. The original reasons for excluding four batches have not been established.
 
 ### 2. Donor-Aware Differential Expression
 
