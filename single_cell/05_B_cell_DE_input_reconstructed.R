@@ -6,8 +6,6 @@
 # The reason for the original four-batch exclusion
 # has not been established.
 
-setwd("F:/SLE-RNA-Therapeutic-Discovery final")
-
 sample_counts <- readRDS(
   "results/B_cell_sample_pseudobulk_counts.rds"
 )
