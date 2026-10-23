@@ -1,4 +1,4 @@
-# SLE-RNA-Therapeutic-Discovry
+# SLE-RNA-Therapeutic-Discovery
 AI-guided RNA therapeutic target discovery for Systemic Lupus Erythematosus using single-cell transcriptomics
 # Machine Learning-Based SLE Therapeutic Target Discovery Using Single-Cell Transcriptomic Features
 
