@@ -85,3 +85,17 @@ The workflow should not yet be described as independently reproduced end-to-end 
 ## Scientific Limitations
 
 The study is observational and computational. It does not demonstrate causal therapeutic effects or clinical efficacy. Independent cohorts, protein-level investigation, and functional experiments are required.
+## B-cell pseudobulk input reconstruction
+
+The saved sample-level pseudobulk count matrix contains 25,716 genes across 347 sample groups. The original differential-expression input matrix contains 25,716 genes across 284 sample groups.
+
+Comparison of the saved matrices identified 63 excluded sample groups, comprising 47 Healthy and 16 SLE Managed groups. All excluded groups came from four batches:
+
+- `dmx_count_AH7TNHDMXX_YE_8-30`: 16 groups
+- `dmx_count_AHCM2CDMXX_YE_0831`: 15 groups
+- `dmx_count_BH7YT2DMXX_YE_0907`: 16 groups
+- `dmx_YE110`: 16 groups
+
+A reconstructed script, `single_cell/05_B_cell_DE_input_reconstructed.R`, reproduces the original 284-sample count matrix exactly by excluding these batches.
+
+**Reproducibility limitation:** The original reasons for excluding these four batches have not been established. The reconstructed script reproduces the saved DE input matrix from existing pseudobulk counts; it does not reproduce aggregation from raw single-cell data. The original upstream preparation scripts were not preserved and should not be represented as working code.
