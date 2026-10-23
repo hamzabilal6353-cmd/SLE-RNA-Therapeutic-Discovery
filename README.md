@@ -195,7 +195,7 @@ The repository includes the following main directories:
 | `visualization/` | Visualization scripts |
 | `scripts/` | Supporting analysis scripts |
 
-Selected summary results and figures from the completed sensitivity analysis are intended to be added to the repository.
+The repository includes selected summary results and figures from the completed B-cell sensitivity analysis.
 
 ## Limitations
 
