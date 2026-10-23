@@ -1,0 +1,7 @@
+"Gene","logFC","FDR","Proposed_Intervention","Clinical_Evidence","Safety_Considerations","Therapeutic_Direction_Validated"
+"TLR7",0.847144380405286,2.54813866543169e-08,"Inhibition","Phase II dual TLR7/8 inhibition: evidence for cutaneous lupus activity","Normal antiviral immune function; infection risks require evaluation","Not established"
+"USP18",2.19905221067853,5.20967179890869e-16,"Undetermined","No established USP18-directed treatment for SLE","Inhibition could remove negative feedback and worsen interferon-driven inflammation","Not established"
+"JAK1",-0.140025732066431,5.16076865873321e-07,"Under investigation","JAK1-selective inhibition investigated in SLE clinical trials","Infection and other systemic JAK inhibitor risks require assessment","Not established"
+"JAK2",0.32868763237861,0.000323324204314279,"Under investigation","No established JAK2-selective treatment benefit for SLE","JAK2 regulates blood-cell production; hematologic toxicity is a concern","Not established"
+"IFIH1",0.571428856050112,9.57579043052423e-11,"Undetermined","No established IFIH1-directed treatment for SLE","MDA5 supports antiviral defense; inhibition could impair infection responses","Not established"
+"STAT1",0.919503639353645,4.24357913158179e-17,"Undetermined","Indirect pathway targeting studied; direct STAT1 inhibition not established for SLE","Broad role in immunity; suppression may impair host defense","Not established"
